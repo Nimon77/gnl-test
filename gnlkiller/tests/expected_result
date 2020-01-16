@@ -1,0 +1,116 @@
+**********************
+* BUFFER_SIZE     64 *
+**********************
+Reading tests/simple...
+---
+ 1-wrgerugjreuretjertete
+ 1-ttreteertteertqw
+ 1-rtertreteterte
+ 0-
+---
+Reading tests/empty...
+---
+ 0-
+---
+Reading tests/empty_one...
+---
+ 1-
+ 0-
+---
+Reading tests/multi_in_one...
+---
+ 1-ewq
+ 1-qwe
+ 1-rak
+ 1-poiee
+ 1-nhu
+ 1-m
+ 0-z
+---
+Reading tests/many_lines...
+---
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 1-
+ 0-
+---
+Reading tests/over_buffer...
+---
+ 1-mweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiw1
+ 1-mweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiw2
+ 1-
+ 0-mweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiwmweiljwmeoriwermeoiw4
+---
+Reading tests/63_line...
+---
+ 0-aaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejio
+---
+Reading tests/63_line_nl...
+---
+ 1-aaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejio
+ 0-
+---
+Reading tests/64_line...
+---
+ 0-aaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioa
+---
+Reading tests/64_line_nl...
+---
+ 1-aaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioa
+ 0-
+---
+Reading tests/65_line...
+---
+ 0-aaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioaa
+---
+Reading tests/65_line_nl...
+---
+ 1-aaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioazeaaazejioaa
+ 0-
+---
+Reading tests/lorem_ipsum...
+---
+ 1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis tincidunt diam. Etiam lobortis sit amet eros eu varius. Fusce fermentum ante vitae leo gravida, at pharetra urna rhoncus. Ut in lacus at nunc condimentum tempus. Morbi pharetra nulla erat, eget rhoncus velit bibendum quis. Quisque gravida orci justo, a aliquam leo tincidunt quis. Nunc scelerisque pellentesque risus non pulvinar. Ut porttitor, felis eget placerat elementum, lacus diam vulputate velit, non lacinia quam nibh vitae lacus. Phasellus iaculis hendrerit felis. Nulla sed tellus sagittis, placerat lacus vitae, maximus tellus. Sed ultrices quam ac diam interdum, ut maximus lectus elementum. Fusce eget orci a urna dapibus aliquet nec facilisis sapien. Curabitur aliquet fermentum arcu, a condimentum neque finibus ac.
+ 1-
+ 1-Duis fermentum hendrerit mi, in lobortis dui feugiat sed. Mauris viverra est mauris, convallis ultrices diam cursus consequat. Phasellus ultrices tellus nec sapien sagittis, ut interdum urna varius. Nam ac imperdiet dui. Nulla dignissim mauris sem, vitae congue sem pulvinar pellentesque. Nullam pretium lorem enim, quis euismod nibh lobortis sed. Praesent quis malesuada diam. Quisque lacinia elementum diam, non bibendum felis condimentum ac. Nullam euismod posuere ante, non hendrerit felis aliquam ut. Nunc neque neque, porttitor et pharetra eu, egestas a metus. Vivamus pretium elementum laoreet. Fusce ac commodo nunc, quis iaculis velit. Donec dignissim, ante sit amet vulputate luctus, tellus mi placerat leo, vel cursus orci ante ac eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis fermentum neque, eget luctus metus.
+ 1-
+ 1-Proin tempor ante tristique scelerisque laoreet. Nulla eu vestibulum neque. Nunc porttitor dignissim augue, pretium tincidunt nulla posuere sed. Vivamus id mi aliquam, cursus orci ut, tincidunt libero. Aenean non laoreet leo. Integer id tristique orci. Quisque nisi metus, tincidunt vitae aliquet ac, porta in mauris. Donec euismod efficitur enim quis pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam a fermentum augue. Praesent egestas ligula vel elementum ornare. Fusce enim lectus, vulputate nec urna et, egestas porttitor mi. Maecenas eget metus ultricies metus tincidunt vehicula sit amet eu libero. Quisque lobortis maximus neque ac pharetra. Donec laoreet elit lobortis ipsum fringilla, sit amet maximus mauris fringilla.
+ 1-
+ 1-Etiam quis mauris eget lacus luctus molestie viverra sit amet dolor. Pellentesque quam tortor, rhoncus in enim non, faucibus mattis lectus. Aliquam erat volutpat. Morbi molestie aliquam tortor at luctus. Maecenas feugiat justo elit, a volutpat arcu lacinia eget. Sed a pulvinar dolor. Integer eget ipsum ex.
+ 1-
+ 1-Proin turpis erat, scelerisque vitae placerat et, mollis quis eros. Integer cursus scelerisque quam ac pellentesque. Nunc aliquam ornare purus, sed lobortis quam sagittis nec. Mauris sed dolor quis sem tristique tempor. Sed arcu sapien, aliquet eget venenatis non, elementum ac est. Curabitur justo libero, mattis consequat ante in, suscipit vulputate massa. Nulla et felis commodo, placerat eros quis, tincidunt velit. Phasellus vel nunc consequat, luctus massa luctus, lobortis elit. Aliquam suscipit ligula ut ante vehicula facilisis. Ut pharetra sagittis quam, in pretium est aliquam vitae. Sed ut tristique tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec non tempus risus.
+ 1-
+ 1-Maecenas viverra condimentum lacus. Quisque posuere nunc nec fermentum feugiat. Mauris vulputate volutpat nibh, id auctor nunc pulvinar a. Sed a odio est. Fusce non dolor sapien. Sed condimentum est in ante tristique pulvinar. In varius commodo euismod. Morbi non tellus id sem ultricies pretium eu ac ligula. Quisque feugiat turpis metus, a eleifend nibh elementum sed. Vivamus hendrerit magna sed tortor auctor, sed suscipit magna rhoncus.
+ 1-
+ 1-Donec ac varius libero. Nullam orci lectus, lobortis sed justo quis, dapibus condimentum lectus. Aenean in bibendum elit, vitae congue neque. Vestibulum id lobortis quam. Maecenas lacinia volutpat est, ac dapibus augue posuere a. In hendrerit eget sem in accumsan. Maecenas sit amet maximus ipsum. Aenean ut lobortis nunc. Praesent tincidunt nisl egestas vulputate semper. Nunc ligula nisi, scelerisque congue lacinia eu, dictum quis massa. Sed tempus et quam sit amet rhoncus.
+ 1-
+ 0-Phasellus elit leo, ullamcorper ut ultrices at, sodales eget sem. Maecenas vel elit suscipit, molestie felis eu, molestie neque. Aliquam malesuada varius orci placerat porttitor. Proin sed varius orci. Suspendisse vel enim tortor. Pellentesque non nulla non nunc luctus tincidunt vel mattis erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus id ante interdum, feugiat nibh quis, bibendum leo. Cras egestas quis orci non mattis. In finibus, enim et elementum commodo, nisl tellus mattis mi aenean suscipit.
+---
+Reading Invalid file descriptor...
+---
+-1#error
+---
+Reading stdin...
+---
+ 1-wrgerugjreuretjertete
+ 1-ttreteertteertqw
+ 1-rtertreteterte
+ 0-
+---
