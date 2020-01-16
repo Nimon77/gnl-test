@@ -1,0 +1,3 @@
+(LINE 1) [OUT 1] |1234567890|
+(LINE 2) [OUT 1] |abcdefghijk|
+(LINE 3) [OUT 0] |abc|

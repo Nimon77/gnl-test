@@ -1,0 +1,14 @@
+(LINE 1) [OUT 1] |abc|
+(LINE 1) [OUT 1] |123|
+(LINE 2) [OUT 1] |456|
+(LINE 2) [OUT 1] |def|
+(LINE 3) [OUT 1] |ghi|
+(LINE 3) [OUT 1] |789|
+(LINE 4) [OUT 1] |jkl|
+(LINE 4) [OUT 1] |100|
+(LINE 5) [OUT 1] |200|
+(LINE 5) [OUT 1] |mno|
+(LINE 6) [OUT 0] |300|
+(LINE 6) [OUT 1] |pqr|
+(LINE 7) [OUT 0] ||
+(LINE 8) [OUT 0] ||

@@ -1,0 +1,6 @@
+(LINE 1) [OUT 1] ||
+(LINE 2) [OUT 1] ||
+(LINE 3) [OUT 1] ||
+(LINE 4) [OUT 1] ||
+(LINE 5) [OUT 1] ||
+(LINE 6) [OUT 0] ||

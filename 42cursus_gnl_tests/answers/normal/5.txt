@@ -1,0 +1,4 @@
+(LINE 1) [OUT 1] |this is a test|
+(LINE 2) [OUT 1] |helllo world|
+(LINE 3) [OUT 1] ||
+(LINE 4) [OUT 0] ||
