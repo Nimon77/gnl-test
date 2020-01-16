@@ -1,3 +1,4 @@
+cp ../get_next_line* .
 cd 42cursus_gnl_tests
 make
 cd ../42TESTERS
