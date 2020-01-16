@@ -32,5 +32,6 @@ read -n 1 -s
 
 cd ../gnlkiller
 cp ../get_next_line* .
-sh test.sh
+sh test.sh > sortie_perso
+diff sortie*
 
