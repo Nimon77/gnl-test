@@ -22,11 +22,18 @@ read -n 1 -s
 
 cd ../gnl_tester
 cp ../get_next_line* .
+bash run_tests.sh 1
 bash run_tests.sh 5
 bash run_tests.sh 10
 bash run_tests.sh 20
 bash run_tests.sh 42
 bash run_tests.sh 10000000
+
+read -n 1 -s
+
+cd ../gnl-war-machine-v2019
+cp ../get_next_line* .
+./grademe.sh
 
 read -n 1 -s
 
