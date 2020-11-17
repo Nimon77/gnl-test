@@ -9,11 +9,6 @@ sh all_tests.sh
 
 read -n 1 -s
 
-cd ../Get_Next_Line_Tester
-bash run.sh
-
-read -n 1 -s
-
 cd ../GNL_lover
 cp ../get_next_line* copy_in_here_GNL_files/.
 sh GNL_lover.sh
