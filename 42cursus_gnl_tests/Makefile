@@ -6,12 +6,12 @@
 #    By: jvan-sni <jvan-sni@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/28 16:59:45 by jvan-sni       #+#    #+#                 #
-#    Updated: 2020/01/16 13:00:15 by nsimon           ###   ########.fr        #
+#    Updated: 2019/11/20 17:56:47 by jvan-sni      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 # edit this to your get_next_line folder
-GET_NEXT_LINE_FOLDER = ../
+GET_NEXT_LINE_FOLDER = ~/42/get_next_line/
 
 # dont touch this plz
 TESTS = 1 2 5 6 20 25 1024 5000 10000000
