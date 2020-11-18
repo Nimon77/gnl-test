@@ -1,6 +1,6 @@
 # gnl-test
 
-Ce repo regroupe plusieurs tests pour le projet Get_next_Line de l’école 42 qui n’ont pas été créés par moi.
+Ce repo regroupe plusieurs tests pour le projet Get_next_Line de l’école 42 que je n'est pas créer moi-même.
 voici les liens des repo officiels :
 
 https://github.com/Mazoise/42TESTERS-GNL
