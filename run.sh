@@ -9,6 +9,7 @@ BG_GREEN=$'\033[48;5;28m'"$WHITE$BOLD"
 BG_RED=$'\033[48;5;9m'"$WHITE$BOLD"
 CLEAR_LINE=$'\033[0K'
 
+cp Makefile_42cursus_gnl_tests 42cursus_gnl_tests/Makefile
 find 42cursus_gnl_tests -name "*.sh" -exec chmod +x {} \;
 
 cp ../get_next_line* .
