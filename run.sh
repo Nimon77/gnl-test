@@ -22,7 +22,7 @@ read -n 1 -s
 
 printf "$BG_GREEN 42TESTERS-GNL $RESET"$'\n'
 cd ../42TESTERS-GNL
-sh all_tests.sh
+bash all_tests.sh
 
 read -n 1 -s
 
