@@ -18,12 +18,14 @@ printf "$BG_GREEN 42cursus_gnl_tests $RESET"$'\n'
 cd 42cursus_gnl_tests
 make
 
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
 read -n 1 -s
 
 printf "$BG_GREEN 42TESTERS-GNL $RESET"$'\n'
 cd ../42TESTERS-GNL
 bash all_tests.sh
 
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
 read -n 1 -s
 
 printf "$BG_GREEN GNL_lover $RESET"$'\n'
@@ -31,6 +33,7 @@ cd ../GNL_lover
 cp ../get_next_line* copy_in_here_GNL_files/.
 sh GNL_lover.sh
 
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
 read -n 1 -s
 
 printf "$BG_GREEN gnl_tester $RESET"$'\n'
@@ -43,6 +46,7 @@ bash run_tests.sh 20
 bash run_tests.sh 42
 bash run_tests.sh 10000000
 
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
 read -n 1 -s
 
 printf "$BG_GREEN gnl-war-machine-v2019 $RESET"$'\n'
@@ -50,6 +54,7 @@ cd ../gnl-war-machine-v2019
 cp ../get_next_line* .
 ./grademe.sh
 
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
 read -n 1 -s
 
 printf "$BG_GREEN gnlkiller $RESET"$'\n'
@@ -57,3 +62,5 @@ cd ../gnlkiller
 cp ../get_next_line* .
 sh test.sh > sortie_perso
 diff sortie*
+
+printf $'\n'"$BG_GRAY Test ended $RESET"$'\n'
