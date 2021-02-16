@@ -1,0 +1,18 @@
+[submodule "42TESTERS-GNL"]
+	path = 42TESTERS-GNL
+	url = https://github.com/Mazoise/42TESTERS-GNL
+[submodule "42cursus_gnl_tests"]
+	path = 42cursus_gnl_tests
+	url = https://github.com/mrjvs/42cursus_gnl_tests
+[submodule "GNL_lover"]
+	path = GNL_lover
+	url = https://github.com/charMstr/GNL_lover
+[submodule "gnl-war-machine-v2019"]
+	path = gnl-war-machine-v2019
+	url = https://github.com/C4r4c0l3/gnl-war-machine-v2019
+[submodule "gnl_tester"]
+	path = gnl_tester
+	url = https://github.com/lgrellie/gnl_tester
+[submodule "gnlkiller"]
+	path = gnlkiller
+	url = https://github.com/Sherchryst/gnlkiller
