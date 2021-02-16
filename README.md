@@ -6,7 +6,7 @@
 
 - Si vous avez des idées d'amélioration ou des testeurs que vous souhaitez ajouter n'hésitez pas à faire une **issue** ou un **pull request**
 
-Ce repo regroupe plusieurs tests pour le projet Get_next_Line de l’école 42 que je n'est pas créer moi-même.
+Ce repo regroupe plusieurs tests pour le projet Get_next_Line de l’école 42 que je n'ai pas créé moi-même.
 voici les liens des repo officiels :
 
 https://github.com/Mazoise/42TESTERS-GNL
