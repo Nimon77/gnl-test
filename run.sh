@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # colors
 GREEN=$'\033[92m'
 WHITE=$'\033[97m'
@@ -39,11 +41,17 @@ read -n 1 -s
 printf "$BG_GREEN gnl_tester $RESET"$'\n'
 cd ../gnl_tester
 cp ../get_next_line* .
+printf "$BG_GRAY BUFFER_SIZE 1 $RESET"$'\n'
 bash run_tests.sh 1
+printf "$BG_GRAY BUFFER_SIZE 5 $RESET"$'\n'
 bash run_tests.sh 5
+printf "$BG_GRAY BUFFER_SIZE 10 $RESET"$'\n'
 bash run_tests.sh 10
+printf "$BG_GRAY BUFFER_SIZE 20 $RESET"$'\n'
 bash run_tests.sh 20
+printf "$BG_GRAY BUFFER_SIZE 42 $RESET"$'\n'
 bash run_tests.sh 42
+printf "$BG_GRAY BUFFER_SIZE 10000000 $RESET"$'\n'
 bash run_tests.sh 10000000
 
 printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
@@ -61,6 +69,12 @@ printf "$BG_GREEN gnlkiller $RESET"$'\n'
 cd ../gnlkiller
 cp ../get_next_line* .
 sh test.sh > sortie_perso
-diff sortie*
+DIFF=$(diff sortie_correct sortie_perso) 
+if [ "$DIFF" != "" ] ; then
+  printf "$BG_RED diff not ok $RESET"$'\n'
+  diff sortie_correct sortie_perso
+else
+  printf "$BG_GREEN diff ok $RESET"$'\n'
+fi
 
 printf $'\n'"$BG_GRAY Test ended $RESET"$'\n'
