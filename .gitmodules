@@ -16,3 +16,9 @@
 [submodule "gnlkiller"]
 	path = gnlkiller
 	url = https://github.com/Sherchryst/gnlkiller
+[submodule "gnl-unit-test"]
+	path = gnl-unit-test
+	url = https://github.com/harm-smits/gnl-unit-test.git
+[submodule "gnlTester"]
+	path = gnlTester
+	url = https://github.com/Tripouille/gnlTester.git

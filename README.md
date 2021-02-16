@@ -20,3 +20,7 @@ https://github.com/C4r4c0l3/gnl-war-machine-v2019
 https://github.com/lgrellie/gnl_tester
 
 https://github.com/Sherchryst/gnlkiller
+
+https://github.com/harm-smits/gnl-unit-test
+
+https://github.com/Tripouille/gnlTester

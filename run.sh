@@ -69,12 +69,27 @@ printf "$BG_GREEN gnlkiller $RESET"$'\n'
 cd ../gnlkiller
 cp ../get_next_line* .
 sh test.sh > sortie_perso
-DIFF=$(diff sortie_correct sortie_perso) 
+DIFF=$(diff sortie_correct sortie_perso)
 if [ "$DIFF" != "" ] ; then
   printf "$BG_RED diff not ok $RESET"$'\n'
   diff sortie_correct sortie_perso
 else
   printf "$BG_GREEN diff ok $RESET"$'\n'
 fi
+
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
+read -n 1 -s
+
+printf "$BG_GREEN gnl-unit-test $RESET"$'\n'
+cd ../gnl-unit-test
+cp ../get_next_line* .
+./test.sh
+
+printf $'\n'"$BG_GRAY Test ended press return for next one $RESET"$'\n'
+read -n 1 -s
+
+printf "$BG_GREEN gnlTester $RESET"$'\n'
+cd ../gnlTester/
+make
 
 printf $'\n'"$BG_GRAY Test ended $RESET"$'\n'
