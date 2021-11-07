@@ -6,7 +6,7 @@
 
 - Si vous avez des idées d'amélioration ou des testeurs que vous souhaitez ajouter n'hésitez pas à faire une **issue** ou un **pull request**
 
-Ce repo regroupe plusieurs tests pour le projet Get_next_Line de l’école 42 que je n'ai pas créé moi-même.
+Ce repo regroupe plusieurs tests pour le projet Get_next_Line de l’école 42.
 voici les liens des repo officiels :
 
 https://github.com/Mazoise/42TESTERS-GNL
@@ -24,3 +24,12 @@ https://github.com/Sherchryst/gnlkiller
 https://github.com/harm-smits/gnl-unit-test
 
 https://github.com/Tripouille/gnlTester
+
+# Setup
+
+Pour executer les tests allez dans votre dossier gnl et faites :
+```shell
+git clone https://github.com/Nimon77/gnl-test.git
+cd gnl-test
+bash ./run.sh
+```
